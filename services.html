@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service - Mbuba Farm</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./src/index.js"></script>
+</head>
+<body style="background-color: greenyellow">
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="services.html">SERVICES</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="subscribe.html">SUBSCRIBE!!</a>
+            <a href="events.html">EVENTS</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1 class="bg">Our services</h1>
+        <head><button style="background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        ">MBUBA FARM</button></head>
+        <section class="service-list">
+            <div class="dropdown">
+                <button onclick="toggleDropdown()" style="
+                    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;">Choose a Service</button>
+                <div id="serviceDropdown" class="dropdown-content">
+                  <div onclick="scrollToService('animal')">Animal Rearing</div>
+                  <div onclick="scrollToService('benchmarking')">Benchmarking</div>
+                  <div onclick="scrollToService('crop')">Crop Farming</div>
+                  <div onclick="scrollToService('workshops')">Workshops</div>
+                </div>
+              </div>
+              
+            <div class="service" id="animal">
+                <h2>Animal Rearing</h2>
+                <img src="https://img.freepik.com/free-photo/brown-chickens-farm_335224-1154.jpg?t=st=1745940347~exp=1745943947~hmac=4389970084c536c55c797510d61aad37fcc20d0e5be6e1f4283ffae8edcd4191&w=1380" alt="Exotic Chicken " srcset="">
+                <img src="https://img.freepik.com/free-photo/cow-bulls-cowshed-farm_1303-30828.jpg?t=st=1745949814~exp=1745953414~hmac=9abe796b92d01614c0a4b7076d44bf967fc1b4757105d6f1ab77901d6dc4746e&w=1380" alt="Dairy farming" srcset="">
+                <img src="https://img.freepik.com/free-photo/adorable-baby-pigs-farm_23-2149066181.jpg?t=st=1745949910~exp=1745953510~hmac=0f0176fca9bae7f51d07fde9d37cc0fc6a652f77d7f7290f7e85905f949bb303&w=1380" alt="Pig Farming" srcset="">
+                <p> Animal rearing involves the care, breeding, and management of livestock for food, income, and agricultural sustainability. At our facility, we focus on modern and ethical practices in poultry, dairy, pig, and rabbit farming—ensuring healthy animals, quality produce, and a hands-on learning experience for aspiring farmers.
+                    We specialize in rearing exotic animals, providing a unique experience for our visitors. From pig farming, to poultry, dairy farming, rabbit rearing Et.Cetera
+                </p>
+<a href="https://en.wikipedia.org/wiki/Animal_husbandry" target="_blank">
+<button style="
+    background-color: #009973;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;"> More About Animal Husbandry</button></a>
+
+</div>
+            
+            <div class="sevice" id="benchmarking">
+                <h2>Benchmarking</h2>
+                <img src="https://img.freepik.com/premium-photo/farming-people-talking-men-with-sales-negotiation-cow-farm-countryside-with-dairy-agriculture-environment-happy-cattle-farmers-guys-with-sustainability-beef-production-smile-ecology_590464-228214.jpg?w=1480" alt="Dairy Farming Benchmarking" srcset="">
+                <img src="https://img.freepik.com/premium-photo/hand-expert-farmer-collect-soil-checking-soil-health-before-growth-seed-vegetable_217236-11899.jpg?w=740" alt="Soil Benchmarking" srcset="">
+                <img src="https://img.freepik.com/premium-photo/woman-tablet-inspection-greenhouse-teamwork-vegetable-food-supply-chain-agriculture-quality-control-black-person-technology-check-land-development-eco-friendly-production_590464-362243.jpg?w=1800" alt="Benchmarking" srcset="">
+                <p>We host benchmarking tours for interested parties, sharing our knowledge and practices in animal husbandry.
+                    Farm benchmarking is a valuable tool that allows farmers to compare their operations with leading industry standards or other successful farms. By measuring key performance indicators—like yield, input costs, or animal productivity—benchmarking helps identify areas for improvement, increase efficiency, and guide smarter farming decisions. It’s not just about comparison; it’s about learning and growing better.
+
+
+                </p>
+<a href="https://ec.europa.eu/eip/agriculture/sites/default/files/eip-agri_factsheet_benchmarking_2017_en.pdf" target="_blank">
+<button style="background-color: #009973;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 1em;
+cursor: pointer;
+transition: background-color 0.3s ease;"> More About Benchmarking</button></a>
+            </div>
+
+            <div class="service" id="crop">
+                <h2>Crop Farming</h2>
+                <img src="https://img.freepik.com/premium-photo/green-maize-corn-field-plantation-summer-agricultural-season-flight-green-corn-field-sunny-summer-day_208861-3449.jpg?w=1380" alt=" Maize Corn" srcset="">
+                <img src="https://img.freepik.com/free-photo/countryside-worker-pushing-wheelbarrow-with-peanuts_23-2148761782.jpg?t=st=1745950883~exp=1745954483~hmac=5e847d1d4fbd1982bfc394254c8d2c2b0544294c46134d595edcee4b699d55ec&w=740" alt="potato farming" srcset="">
+                <img src="https://img.freepik.com/free-photo/ripening-tomatoes_1098-13004.jpg?t=st=1745945574~exp=1745949174~hmac=e2675cb8284049aa315312e860ff0a061d613e812e90d8e832969d3e2a089c14&w=1380" alt="" srcset="">
+                <img src="https://img.freepik.com/free-photo/close-up-garden-grown-green-bean_23-2148332307.jpg?t=st=1745946166~exp=1745949766~hmac=20b3f5e889a15866a661cb8b95377285bb8c031d751a2cac1c2cf0e899f63cfd&w=740" alt="Cow Peas" srcset="">
+                <img src="https://img.freepik.com/free-photo/various-legumes_53876-47070.jpg?t=st=1745951120~exp=1745954720~hmac=9ce28b30cb4ccd87dcfd7f8909a071894f508742697f31758630168ea6beb047&w=1380" alt="Bean farming" srcset="">
+                <img src="https://img.freepik.com/free-photo/harvesting-apple-fruit-green-orchard_342744-315.jpg?t=st=1745951021~exp=1745954621~hmac=3903d0436acb904874fce0ca14276734a10fac657bc028273375318d9f6e3f8f&w=1380" alt="Fruit farming" srcset="">
+                <p>Crop farming is the backbone of food production, involving the cultivation of fruits, vegetables, grains, and legumes. Our farm showcases diverse and sustainable crop systems—from maize and potatoes to tomatoes, beans, and cowpeas—using smart farming techniques that boost yields while preserving soil health and the environment.
+                    We grow a variety of crops, including potatoes, tomatoes, maize, fruits, and cowpeas.</p>
+                    
+                      
+                <a href="https://openknowledge.fao.org/server/api/core/bitstreams/ab0a2424-5352-4e7c-aac3-eb106e5a0e32/content" target="_blank">
+                <button style="background-color: #009973;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                font-size: 1em;
+                cursor: pointer;
+                transition: background-color 0.3s ease; "> More About Crop Farming</button></a>
+            </div>
+            <div class="service" id="workshops">
+                <h2>Workshops</h2>
+                <img src="https://img.freepik.com/free-photo/side-view-women-shaking-hands_23-2149894715.jpg?t=st=1745946356~exp=1745949956~hmac=7fd1d308235c8faefafc8c27d850f8cc1ad21a4ff05fbc9644560d76e93550cc&w=1380" alt="Workshops" srcset="">
+                <img src="https://img.freepik.com/free-photo/greenhouse-farmer-holding-laptop-talking-with-african-american-worker-holding-crate-with-fresh-lettuce-talking-about-delivery-bio-farm-plant-growers-preparing-deliver-online-order-client_482257-47493.jpg?t=st=1745997539~exp=1746001139~hmac=10f34996fc5a489fa0968b49276812351a51c7f49ee1eff1d6fbdbfb0fcd28ad&w=1380" alt="Farm workshop" srcset="">
+                <p>Our workshops provide practical, hands-on training for farmers, agri-entrepreneurs, and enthusiasts. Participants engage with experts, explore modern farming techniques, and exchange ideas with peers. Whether you're just starting or looking to scale, our sessions are designed to inspire, educate, and connect you with the future of agriculture.
+                    Our thorough and informative workshops will help you connect with other farmers, who may offer different scopes and ideas. 
+                    Get to learn about trending markets, new technologies and innovations in farming.</p>
+                <p style="color: red;">YOU MIGHT JUST MAKE A CONNECTION!</p>
+                <a href="https://www.fao.org/4/s1250e/S1250E19.htm" target="_blank">
+                <button style="background-color: #009973;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                font-size: 1em;
+                cursor: pointer;
+                transition: background-color 0.3s ease;"> More About Workshops</button></a>
+                </div>
+        </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mbuba Farm. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="https://www.facebook.com/MbubaFarm" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com/MbubaFarm" target="_blank">Instagram</a> | 
+            <a href="https://www.twitter.com/MbubaFarm" target="_blank">Twitter</a>
+        </p>
+</body>
+</html>

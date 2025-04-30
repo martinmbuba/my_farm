@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe - Mbuba Farm</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/subscriber.css">
+    <script src="./src/subscribe.js"></script>
+</head>
+<body style="background-color:#009973 ;">
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="services.html">SERVICES</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="events.html">EVENTS</a>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+        <h1>Subscribe to Our Newsletter</h1>
+        <p>Stay updated with the latest news, Developments and offers from Mbuba Farm.</p>
+        <form id="custom-Subscribe-form" autocomplete="on">
+            <label>
+            full name: <br>
+            <input type="text" name="name" required><br>
+            </label><br><br>
+
+            <label>
+            Email: <br>
+            <input type="email" name="email" required><br>
+            </label><br>
+
+            <label>
+            Interested In: <br>
+            <select name="interest" required>
+                <option value="Animal_rearing">Animal Rearing</option>
+                <option value="Crop_farming">Crop Farming</option>
+                <option value="Benchmarking">Benchmarking</option>
+                <option value="workshops">Workshops</option>
+                <option value="NewsLetter">Newsletter</option>
+                <option value="Events">Events</option>
+                <option value="Follow Up">Follow Up</option>
+            </select><br>
+            </label><br>
+
+<button type="Submit"> Subscribe</button>
+
+        </form>
+         <p id="thank-you-message" style="display: none;color: green; font-weight: bold;"></p>
+         
+        </div>
+        <div class="subscribers-list">
+            <h2>Subscribers <span id="subscriber-count">0</span></h2>
+            <ul id="subscriber-list"></ul>
+          </div>
+            
+        </main> 
+       
+          </div>
+          
+        <footer>
+            <p>&copy; 2025 Mbuba Farm. All rights reserved.</p>
+            <p>Follow us on social media: 
+                <a href="https://www.facebook.com/MbubaFarm" target="_blank">Facebook</a> | 
+                <a href="https://www.instagram.com/MbubaFarm" target="_blank">Instagram</a> | 
+                <a href="https://www.twitter.com/MbubaFarm" target="_blank">Twitter</a>
+            </p>
+            
+             <script src="./src/subscribe.js"></script>
+</body>
+</html>

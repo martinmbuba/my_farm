@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Mbuba Farm</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./src/events.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="services.html">SERVICES</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="subscribe.html">SUBSCRIBE!!</a>
+            <a href="events.html">EVENTS</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Event Booking</h1>
+        <p>Choose an event below and book your spot!</p>
+
+        <div class="event-booking-form">
+            <form id="event-booking-form">
+                <label>
+                    Name: <br>
+                    <input type="text" name="name" required>
+                </label><br>
+
+                <label>
+                    Email: <br>
+                    <input type="email" name="email" required>
+                </label><br>
+
+                <label>
+                    Choose an Event: <br>
+                    <select name="event" required>
+                        <option value="Agriculture Workshop">Agriculture Workshop</option>
+                        <option value="Crop Farming Seminar">Crop Farming Seminar</option>
+                        <option value="Animal Husbandry Session">Animal Husbandry Session</option>
+                        <option value="Book a Farm Visit">Book a Farm Visit</option>
+                        <option value="Hire a Farm Expert">Hire a Farm Expert</option>
+                        <option value="Our Annual Workers Party">Our Annual Workers party</option>
+                    </select>
+                </label><br><br>
+
+                <label>
+                    Choose a Date: <br>
+                    <input type="date" name="eventDate" required>
+                </label><br><br>
+
+                <button type="submit" style="
+                background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;">Book Now</button>
+            </form>
+        </div>
+
+        <!-- Displaying booked events -->
+        <div class="booked-events">
+            <h2>Booked Events</h2>
+            <ul id="booked-events-list"></ul>
+            <p id="booked-events-count" style="
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;">Total Booked Events: 0</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mbuba Farm. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="https://www.facebook.com/martin_mbuba" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com/Mbuba_Farm" target="_blank">Instagram</a> | 
+            <a href="https://www.twitter.com/Mbuba_Farm" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>

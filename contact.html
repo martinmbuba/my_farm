@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Mbuba Farm</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">i
+  <link rel="stylesheet" href="./styles/index.css" />
+  <script defer src="./src/contact.js"></script>
+</head>
+<body style="background-color: #009973;">
+  <header>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="services.html">SERVICES</a>
+      <a href="contact.html">CONTACT</a>
+      <a href="subscribe.html">SUBSCRIBE!!</a>
+      <a href="events.html">EVENTS</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="form-container">
+      <h1>Contact Us</h1>
+      <p>Telephone: 0701274732 <button style="background-color: green;">CALL NOW</button></p>
+      <p>Email: Mbubafarm2025@gmail.com <button style="background-color: green;">Send email</button></p>
+      <form id="contact-form">
+        <label>
+          Name: <br>
+          <input type="text" name="name" required autocomplete="name" />
+        </label><br><br>
+
+        <label>
+          Email: <br>
+          <input type="email" name="email" required autocomplete="email" />
+        </label><br><br>
+
+        <label>
+          Message:<br>
+          <textarea name="message" rows="5" required></textarea>
+        </label><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+
+      <!-- Message preview area -->
+      <div id="submitted-message" style="display: none; margin-top: 20px; border: 1px solid #ccc; padding: 15px; background-color: #f1f1f1;"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mbuba Farm. All rights reserved.</p>
+    <p>Follow us on social media: 
+      <a href="https://www.facebook.com/MbubaFarm" target="_blank">Facebook</a> | 
+      <a href="https://www.instagram.com/MbubaFarm" target="_blank">Instagram</a> | 
+      <a href="https://www.twitter.com/MbubaFarm" target="_blank">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.subscribers-list {
+    margin: 2rem auto;
+    padding: 3rem;
+    border: 3px solid #4CAF50;
+    border-radius: 8px;
+    max-width: 400px;
+    background-color: #f9fff9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscribers-list h2 {
+    text-align: center;
+    color: #2d662d;
+    margin-bottom: 1rem;
+  }
+  
+  #subscriber-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #subscriber-list li {
+    padding: 1 rem 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  #subscriber-list li:last-child {
+    border-bottom: none;
+  }
+  
+  #subscriber-count {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: #2d662d;
+  }
+  

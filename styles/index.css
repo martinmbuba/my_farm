@@ -1,0 +1,188 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header{
+    position:fixed;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+main{
+    padding: 20px;
+}
+
+
+.service-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.service{
+    background-color: white;
+    padding: 20px;
+    border-left: 5px solid #4CAF50;
+}
+
+img{
+    justify-items: center;
+    height: 300px;
+    width: 320px;
+    flex-direction: row;
+    gap: 100px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin : 10px;
+    image-rendering: auto;
+    border-radius: 5px;
+    
+}
+
+footer{
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.bg{
+    background-image: url(https://img.freepik.com/free-photo/various-legumes_53876-47070.jpg?t=st=1745951120~exp=1745954720~hmac=9ce28b30cb4ccd87dcfd7f8909a071894f508742697f31758630168ea6beb047&w=1380);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 20px;
+    position: relative;
+}
+.h1{
+    background-image: url(https://img.freepik.com/free-photo/cows-eating-lush-grass-green-field-front-fuji-mountain-japan_335224-36.jpg?t=st=1745952868~exp=1745956468~hmac=8fcc2dcf937211b8eb6a17f9638a220db0090be7db0382a9531233d399bfee16&w=1380);
+    background-size: cover;
+    padding : 40px 20px;
+    background-position: center;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content div{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content div:hover {
+    background-color: #f1f1f1;
+}
+.show {
+    display: block;
+}
+
+.form-container{
+    width: 200%;
+    max-width: 1000px;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.input-label{
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+form input,
+form textarea,
+form select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.about-section{
+    max-width: 10000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.about-section h2{
+    text-align: center;
+    color: #006644;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.about-section p{
+    margin-bottom: 16px;
+    font-size: 1.1em;
+}
+
+.subscribe-button{
+    background-color: #009973;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.subscribe-button:hover{
+    background-color: #007a5e;
+}
+
+.hero-section{
+    max-width: 15000px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    
+}
+
+.subscribebtn{
+    background-color: #009973;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
