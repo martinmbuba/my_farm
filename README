@@ -1,0 +1,65 @@
+# 🌾 Mbuba Farm Website
+
+Mbuba Farm is a modern, community-driven farming website that promotes sustainable agriculture and practical learning. This site showcases our farming services, offers subscription features, and enables users to book events, learn from workshops, and benchmark with other farmers.
+
+## 🚀 Project Overview
+
+Mbuba Farm combines traditional farming values with modern digital solutions. The website is designed to:
+
+- Educate visitors on animal and crop farming practices
+- Allow users to subscribe to newsletters
+- Let users book events and workshops
+- Promote sustainable farming innovations
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure and layout  
+- **CSS3** – Styling and responsive design  
+- **JavaScript (Vanilla JS)** – DOM manipulation, localStorage, interactivity  
+- **Responsive Design** – Optimized for mobile and desktop  
+- **Freepik Images** – For visual content  
+
+---
+
+## 📚 Features
+
+- 🔔 Subscription form with `localStorage` data retention  
+- 📅 Event booking with date selection  
+- 🧑‍🌾 Sections for animal rearing, crop farming, and benchmarking  
+- 📈 External links for learning and research  
+- 📷 Gallery-style layout using Flexbox  
+- 📱 Mobile-friendly layout  
+
+---
+
+## 🐛 Known Issues
+
+- No backend/server integration yet – data is not saved permanently across devices  
+- Layout may require further testing on older mobile browsers  
+- Event booking confirmation is visual only (no email confirmation)
+
+---
+
+## 📌 Future Improvements
+
+- Backend integration (Node.js or Firebase) for persistent data  
+- Admin dashboard for managing subscribers and events  
+- More interactive workshop modules  
+- Image optimization for better loading performance  
+
+---
+
+## 📄 License
+
+This project is for educational purposes and currently does not include a license.
+
+---
+
+## 🔗 Live Preview
+
+You can open this project locally or host it using GitHub Pages or Netlify.
+
+---
+
